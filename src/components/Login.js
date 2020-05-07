@@ -1,7 +1,6 @@
-/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import classNames from 'classnames/bind';
-import style from './css/Login.css';
+import style from '../css/Login.css';
 
 const st = classNames.bind(style);
 
