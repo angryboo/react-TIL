@@ -1,11 +1,11 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import classNames from 'classnames/bind';
-import style from './App.css';
+import style from './css/Login.css';
 
 const st = classNames.bind(style);
 
-class App extends Component {
+class Login extends Component {
   changeInput = (text) => {
     console.log(`사용자 ${text} 입력중`);
   };
@@ -41,4 +41,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Login;
